@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayley's Tarot Reader</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Hayley's Tarot Reader 2.0 : Web Version</h1>
+    <p></p>
+    <div>
+        <button class = 'button' onclick="Shuffle()">Extra Shuffle</button>
+        <button class = 'button' onclick="LookAtTopCard()">Look at Top Card</button>
+        <button class = 'button' onclick="CustomSpread()">Custom Spread</button>
+    </div> 
+    <div>
+        <button class = 'smallButton' onclick="Spread(['PAST','PRESENT','FUTURE'])">Past-Present-Future(3)</button>
+        <button class = 'smallButton' onclick="Spread(['SITUATION', 'CHALLENGE', 'BELIEFS', 'DISTANT PAST(ROOT)','NEAR PAST','NEAR FUTURE','SELF-PERCEPTION','OUTSIDE INFLUENCES / PERCEPTIONS OF YOU','ACTION ADVICE','OUTCOME/FUTURE'])">Celtic Cross(10)</button>
+        <button class = 'smallButton' onclick="Spread(['LOOKING BACK ON TODAY','WHAT TO EXPECT FOR TOMORROW'])">Before Bed (2)</button>
+        <button class = 'smallButton' onclick="Spread(['YOU', 'THE OTHER PERSON', 'THE RELATIONSHIP'])">Love (3)</button>
+        <button class = 'smallButton' onclick="Spread(['YOUR ROLE IN RELATIONSHIP', 'PARTNERS ROLE IN RELATIONSHIP', 'PAST FOUNDATION', 'CURRENT STATE','LOOMING FUTURE'])">Relationship (5)</button>
+       
+    </div> 
+
+    <p id = "output"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>

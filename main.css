@@ -1,0 +1,24 @@
+#output {
+    white-space: pre-line;
+}
+
+.button{
+    height:50px;
+    width:400px;
+    background: lightgray;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.smallButton{
+    height:50px;
+    width:197.5px;
+    background: lightgray;
+    cursor: pointer;
+}
+/*section div[class = button] {
+    height:50px;
+    width:300px;
+    background: lightgray;
+    cursor: pointer;
+  }*/
