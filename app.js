@@ -99,11 +99,6 @@ class Tarot{
         else
             return this.name + " : (" + this.description + ")";
     }
-    /*public string ToStringEverything()
-    {
-
-        return this.name + " : (" + description + ")" + "  \n                if [REVERSED] : (" + flippedDescription + ")";
-   */
 }
 
 var deck = [];
@@ -112,7 +107,6 @@ for(var x = 0; x < cardText.length; x++)
     var parts = cardText[x].split('/');
     deck[x] = (new Tarot(parts[0], parts[1], parts[2]));
 }
-
 
 function Shuffle(){
     var currentIndex = deck.length, temporaryValue, randomIndex;
@@ -140,7 +134,8 @@ function Shuffle(){
 
 }
 
-function LookAtTopCard(){
+function LookAtTopCard()
+{
     document.getElementById("output").innerHTML = "Top Card  =  " + deck[0].toString();
 }
 
@@ -169,10 +164,3 @@ function CustomSpread()
 
     document.getElementById("output").innerHTML = cardSpread;
 }
-
-//document.getElementById("output").innerHTML = "z, "+deck[3].toString();
-
-/*var x = 0;
-for(x=0;x<50;x++){
-    document.write(x+"\n");
-}*/

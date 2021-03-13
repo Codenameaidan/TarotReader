@@ -1,4 +1,25 @@
+.main{
+    background-color: #ffffff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 440px auto;
+    background-color: #800020;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: #800020;
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    white-space: pre-line;
+  }
+
 #output {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     white-space: pre-line;
 }
 
@@ -12,13 +33,7 @@
 
 .smallButton{
     height:50px;
-    width:197.5px;
+    width:400px;
     background: lightgray;
     cursor: pointer;
 }
-/*section div[class = button] {
-    height:50px;
-    width:300px;
-    background: lightgray;
-    cursor: pointer;
-  }*/
